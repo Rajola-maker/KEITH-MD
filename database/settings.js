@@ -30,7 +30,7 @@ const SettingsDB = database.define('settings', {
     },
     botname: {
         type: DataTypes.STRING,
-        defaultValue: "KEITH-MD",
+        defaultValue: "VENOCYBER-MD",
         allowNull: false
     },
     packname: {
@@ -47,7 +47,7 @@ const SettingsDB = database.define('settings', {
     },
     sessionName: {
         type: DataTypes.STRING,
-        defaultValue: "keith-md",
+        defaultValue: "venocyber-md",
         allowNull: false
     }
 }, {
@@ -76,8 +76,8 @@ async function getSettings() {
         console.error('Error getting settings:', error);
         // Fallback to default settings
         return {
-            prefix: ".",
-            author: "Keith",
+            prefix: "#",
+            author: "Rajolaio⁸",
             url: "https://files.catbox.moe/9zqj7g.jpg",
             gurl: "https://github.com/Keithkeizzah/KEITH-MD",
             timezone: "Africa/Nairobi",
