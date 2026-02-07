@@ -5,12 +5,12 @@ const { database } = require('../settings');
 const SettingsDB = database.define('settings', {
     prefix: {
         type: DataTypes.STRING,
-        defaultValue: ".",
+        defaultValue: "#",
         allowNull: false
     },
     author: {
         type: DataTypes.STRING,
-        defaultValue: "Keith",
+        defaultValue: "Venocyber",
         allowNull: false
     },
     url: {
@@ -35,7 +35,7 @@ const SettingsDB = database.define('settings', {
     },
     packname: {
         type: DataTypes.STRING,
-        defaultValue: "KEITH-MD",
+        defaultValue: "VENOCYBER-MD",
         allowNull: false
     },
     mode: {
@@ -81,8 +81,8 @@ async function getSettings() {
             url: "https://files.catbox.moe/9zqj7g.jpg",
             gurl: "https://github.com/Keithkeizzah/KEITH-MD",
             timezone: "Africa/Nairobi",
-            botname: "KEITH-MD",
-            packname: "KEITH-MD",
+            botname: "VENOCYBER-MD",
+            packname: "VENOCYBER-MD",
             mode: "public",
            
             sessionName: "KEITH-MD"
