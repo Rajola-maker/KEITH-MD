@@ -1,10 +1,10 @@
 {
-  "name": "VENOCYBER-MD",
+  "name": "AURAEN",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
     "bot",
     "whatsapp",
-    "venocyber",
+    "Auraen",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -14,9 +14,9 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "website": "https://github.com/Rajola-maker/KEITH-MD#readme",
+  "repository": "https://github.com/Rajola-maker",
+  "logo": "auraen.jpg",
   "success_url": "/",
   "env": {
     "OWNER_NUMBER": {
