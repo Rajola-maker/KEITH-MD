@@ -10,12 +10,12 @@ const SettingsDB = database.define('settings', {
     },
     author: {
         type: DataTypes.STRING,
-        defaultValue: "Venocyber",
+        defaultValue: "Rajola",
         allowNull: false
     },
     url: {
         type: DataTypes.STRING,
-        defaultValue: "https://files.catbox.moe/9zqj7g.jpg",
+        defaultValue: "Auraen.jpg",
         allowNull: false
     },
     gurl: {
@@ -25,17 +25,17 @@ const SettingsDB = database.define('settings', {
     },
     timezone: {
         type: DataTypes.STRING,
-        defaultValue: "Africa/Nairobi",
+        defaultValue: "Africa/Tanzania",
         allowNull: false
     },
     botname: {
         type: DataTypes.STRING,
-        defaultValue: "VENOCYBER-MD",
+        defaultValue: "AURAEN",
         allowNull: false
     },
     packname: {
         type: DataTypes.STRING,
-        defaultValue: "VENOCYBER-MD",
+        defaultValue: "AURAEN",
         allowNull: false
     },
     mode: {
@@ -47,7 +47,7 @@ const SettingsDB = database.define('settings', {
     },
     sessionName: {
         type: DataTypes.STRING,
-        defaultValue: "venocyber-md",
+        defaultValue: "Auraen",
         allowNull: false
     }
 }, {
@@ -77,15 +77,15 @@ async function getSettings() {
         // Fallback to default settings
         return {
             prefix: "#",
-            author: "Rajolaio⁸",
-            url: "https://files.catbox.moe/9zqj7g.jpg",
+            author: "Rajola⁸",
+            url: "auraen.jpg",
             gurl: "https://github.com/Keithkeizzah/KEITH-MD",
-            timezone: "Africa/Nairobi",
-            botname: "VENOCYBER-MD",
-            packname: "VENOCYBER-MD",
+            timezone: "Africa/Tanzania",
+            botname: "AURAEN",
+            packname: "AURAEN",
             mode: "public",
            
-            sessionName: "KEITH-MD"
+            sessionName: "AURAEN"
         };
     }
 }
